@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+}
+.logo{
+    font-size:100px;
+}
+.searchBarImg{
+    width: 582px;
+    height: 44px;
+    position:relative;
+    bottom: 100px;
+}
+.textBox{
+    width: 487px;
+    height: 34px;
+    position: relative;
+    bottom: 146px;
+    left:10px
+}
+
+input[type="text"]{
+    font-size: 24px;
+}
+input{
+    color: grey;
+}

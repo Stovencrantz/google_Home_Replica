@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"> 
+    <title> GOOGLE Home </title>
 </head>
 <body>
-    
+    <div class = "nav">
+        <h5> Gmail </h5>
+        <h5>Images</h5>
+        <img class = "navDot" src= "Images/multi_dot.png" alt = "dots" style = "height: 15px; width: 15px;">
+        <h5>Profile</h5>
+    </div>
+
+    <div class = "header">
+        <p class = "logo"><b>GOOGLE</b></p>
+        <img src = "navbar">
+        <img class = "searchBarImg" src = "Images/searchBar.png" alt = "searchbar" style = "width:582; height: 44;">
+        <form class = "searchForm" action = "processscript.php" medthod = "get">
+            <input type="text" name = "Search Bar" value= "search here" class = "textBox">
+        </form>
+    </div>
 </body>
 </html>
