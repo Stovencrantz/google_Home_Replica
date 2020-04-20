@@ -8,3 +8,8 @@ Mock website resembling the google homepage
 *Made second commit that included the HTML layout for the 
 NAV BAR, LOGO, Seachbar, and searchbar form
 *Included CSS for positioning of LOG, searchbar, and search form
+
+4/20/2020
+*Made third commit that corrected the positioning of most HTML elements, particularly within the form.
+*Added "google search" and "Im feeling lucky" submit buttons.
+*Added informational message and a working link to a new tab.
