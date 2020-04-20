@@ -1,26 +1,70 @@
-.header{
+
+.navBar{
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    max-width: 100%;
+
+}
+
+.gmailNav{
+    position: fixed;
+    right: 400px;
+    top: 0px;
+}
+.imagesNav{
+   position: fixed;
+   right: 300px;
+   top: 0px;
+}
+.navApps{
+    position: fixed;
+    right: 200px;
+    top: 5px;
+}
+.profileNav{
+    position: fixed;
+    right: 100px;
+    top: 5px;
+}
+
+.interactive{
     text-align: center;
+    position: relative;
 }
 .logo{
     font-size:100px;
+    margin-bottom: auto;
 }
 .searchBarImg{
     width: 582px;
     height: 44px;
-    position:relative;
-    bottom: 100px;
+    top: 0px;
 }
-.textBox{
+
+.searchBox{
     width: 487px;
     height: 34px;
-    position: relative;
-    bottom: 146px;
-    left:10px
+    position: absolute;
+    top: 54.5%;
+    left: 37.5%;
+    
 }
 
 input[type="text"]{
     font-size: 24px;
-}
-input{
     color: grey;
+}
+
+.submitButtons{
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+}
+
+.wordPrompt{
+    display: block;
+    text-align: center;
+    margin-top: 3%;
 }

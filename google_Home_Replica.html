@@ -7,20 +7,28 @@
     <title> GOOGLE Home </title>
 </head>
 <body>
-    <div class = "nav">
-        <h5> Gmail </h5>
-        <h5>Images</h5>
-        <img class = "navDot" src= "Images/multi_dot.png" alt = "dots" style = "height: 15px; width: 15px;">
-        <h5>Profile</h5>
+    <div class = "navBar">
+        <p class = "gmailNav"> Gmail </p>
+        <p class = "imagesNav"> Images</p>
+        <img class = "navApps" src= "Images/multi_dot.png" alt = "dots" style = "width: 30px; height: 30px;">
+        <img class = "profileNav" src = "Images/userIcon.jpg" alt= "user Icon" style = "width: 32px; height: 33.5px;">
     </div>
+    
 
-    <div class = "header">
+    <div class = "interactive">
         <p class = "logo"><b>GOOGLE</b></p>
-        <img src = "navbar">
         <img class = "searchBarImg" src = "Images/searchBar.png" alt = "searchbar" style = "width:582; height: 44;">
         <form class = "searchForm" action = "processscript.php" medthod = "get">
-            <input type="text" name = "Search Bar" value= "search here" class = "textBox">
+            <input type="text" name = "Search Bar" value= "search here" class = "searchBox">
+            <div class = "submitButtons">
+                <input type= "submit" value = "Google Search" class = "srchButton" style = "margin-right: 4px;" >
+                <input type=  "submit" value = "I'm Feeling Lucky" class = "luckyButton" style = "margin-left: 4px;">
+            </div>
         </form>
+    </div>
+    <div class = "wordPrompt">
+        <a href = "https://stadia.google.com/" target="_blank" alt = "link to google stadia home page">
+                Thank you for staying home. Enjoy free video games from Stadia Pro</a>
     </div>
 </body>
 </html>
