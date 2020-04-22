@@ -1,29 +1,50 @@
-
+body{
+    width: 100%;
+    height: 100%;
+}
 .navBar{
     position: fixed;
-    text-align: right;
     top: 0px;
     max-width: 100%;
 
 }
+.aboutNav{
+    position: relative;
+    top: 5px;
+    padding-left: 16px;
+}
+
+.storeNav{
+    position: relative;
+    top: 5px;
+    padding-left: 16px; 
+}
 
 .gmailNav{
     position: fixed;
+    display: block;
+    width: auto;
     right: 400px;
     top: 0px;
 }
 .imagesNav{
    position: fixed;
+   display: block;
+   width: auto;
    right: 300px;
    top: 0px;
 }
 .navApps{
     position: fixed;
+    display: block;
+    width: auto;
     right: 200px;
     top: 5px;
 }
 .profileNav{
     position: fixed;
+    display: block;
+    width: auto;
     right: 100px;
     top: 5px;
 }
@@ -34,6 +55,8 @@
 }
 .logo{
     font-size:100px;
+    display: block;
+    width: auto;
     margin-bottom: auto;
 }
 .searchBarImg{
@@ -67,4 +90,35 @@ input[type="text"]{
     display: block;
     text-align: center;
     margin-top: 3%;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 4%;
+    background-color: rgb(238, 238, 238);
+}
+
+.footerContents{
+  position: relative;
+  display: block;
+  top: 33%;
+}
+
+.footContentsLeft{
+    position: fixed;
+    left: 0%;
+}
+
+.footContentsRight{
+    position: fixed;
+    left: 85%;    
+}
+
+.footAdvertising, .footBusiness, .howToSearch, .footPrivacy, 
+    .footTerms, .footSettings{  
+    display: inline-block;
+    position: relative;
+    padding-left: 16px;
 }
